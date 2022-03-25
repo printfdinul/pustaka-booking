@@ -9,7 +9,7 @@ class Model_latihan1 extends CI_Model
 
 	//Method penjumlahan
 
-	public function jumlah($n1, $n2)
+	public function jumlah($n1 = null, $n2= null)
 
 	{
 		# code...
