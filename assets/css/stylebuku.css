@@ -26,7 +26,7 @@ body {
 }
 #wrapper header {
 	background: rgb(92,84,217);
-background: linear-gradient(90deg, rgba(92,84,217,1) 0%, rgba(103,103,202,1) 26%, rgba(7,178,238,1) 64%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg, rgba(92,84,217,1) 0%, rgba(103,103,202,1) 26%, rgba(7,178,238,1) 64%, rgba(0,212,255,1) 100%);
 	padding: 10px;
 	overflow: hidden;
 }
@@ -62,7 +62,8 @@ section{
 }
 
 footer {
-	background: #232323;
+	background: rgb(92,84,217);
+	background: linear-gradient(90deg, rgba(92,84,217,1) 0%, rgba(103,103,202,1) 26%, rgba(7,178,238,1) 64%, rgba(0,212,255,1) 100%);
 	padding: 20px;
 	margin-left: auto; 
 	margin-right: auto;
