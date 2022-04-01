@@ -1,5 +1,5 @@
 <?php 
-class Matakuliah extends CI_Controller
+class matakuliah extends CI_Controller
 {
     public function index()
     {
@@ -20,4 +20,5 @@ class Matakuliah extends CI_Controller
         $this->load->view('viewdata', $data);
     }
 }
-?>
+
+

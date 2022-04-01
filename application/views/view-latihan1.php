@@ -1,34 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Latihan 1</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-	<style type="text/css">
-		body{
-
-			background: linear-gradient(#26E1DA, #1cA5A8);
-			height: 90vh;
-		}
-		.home{
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			margin-top: 230px;
-	}
-	</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1</title>
 </head>
 <body>
- <div class="home">
-	<div class="alert alert-danger" role="alert">
-  <h4 class="alert-heading">Yang Penting Ngarti dah</h4>
- <p>
- <h3>Nilai 1 =<?= $nilai1; ?> </h3>
- <h3>Nilai 2 =<?= $nilai2; ?> </h3>
- <hr>
- <p class="mb-0">ini hasil dari pemodelan dengan methode penjumlahan yaitu
- <?= $nilai1 ." + " .$nilai2 ." = " .$hasil; ?>
-</div>
-</div>
+Halo Kawan.. Yuk kita belajar web programming..!!!<br>
+ Nilai 1 = <?= $nilai1; ?>
+ <br>
+ Nilai 2 = <?= $nilai2; ?>
+ <br>
+ ini hasil dari pemodelan dengan methode penjumlahan yaitu <?=
+$nilai1 . " + " . $nilai2 . " = " . $hasil; ?>
 </body>
 </html>
