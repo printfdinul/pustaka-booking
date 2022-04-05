@@ -65,13 +65,14 @@ footer {
 	background: rgb(92,84,217);
 	background: linear-gradient(90deg, rgba(92,84,217,1) 0%, rgba(103,103,202,1) 26%, rgba(7,178,238,1) 64%, rgba(0,212,255,1) 100%);
 	padding: 20px;
-	margin-left: auto; 
-	margin-right: auto;
-	width: 80%;
+
 }
 footer a {
 	color: #fff;
 	text-decoration: none;
+		margin-left: auto; 
+	margin-right: auto;
+	width: 90%;
 }
 section {
 	padding: 20px;
