@@ -4,55 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matakuliah</title>
+    <title>Document</title>
 </head>
 <body>
-    <center>
-        <form action="<?= base_url('matakuliah/cetak'); ?>" method="post">
-        <table>
-            <tr>
-                <th colspan="3">
-                    Form Input Data Mahasiswa
-                </th>
-            </tr>
+    
+</body>
+</html>
+<html>
 
-            <tr>
-                <th>Kode MTK</th>
-                <td>:</td>
-                <td>
-                    <input type="text" name="kode" id="kode">
+<head>
+    <title>Form Input Matakuliah</title>
+</head>
+
+<body>
+    <center>
+        <form   action="<?=    base_url('matakuliah/cetak'); ?>" method="post">
+            <table>
+                <tr>
+                    <th colspan="3">
+                        Form Input Data Matakuliah
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <hr>
                 </td>
             </tr>
-
+            <tr>
+                <th>Kode MTK</th>
+                <th>:</th>
+                <td>
+                    <input type="text"  name="kode" id="kode">
+                </td>
+                <div class="col-sm-6 col-danger"> <?= form_error('kode');?></div>
+            </tr>
             <tr>
                 <th>Nama MTK</th>
                 <td>:</td>
                 <td>
                     <input type="text" name="nama" id="nama">
                 </td>
+                <div class="col-sm-6 col-danger"> <?= form_error('nama');?></div>
             </tr>
-
             <tr>
                 <th>SKS</th>
                 <td>:</td>
                 <td>
                     <select name="sks" id="sks">
                         <option value="">Pilih SKS</option>
-                        <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                     </select>
                 </td>
+                <div class="col-sm-6 col-danger"> <?= form_error('sks');?></div>
             </tr>
-
             <tr>
                 <td colspan="3" align="center">
-                    <input type="submit" value="submit">
+                    <input type="submit" value="Submit">
                 </td>
             </tr>
-        </table>   
+        </table>
     </form>
-    </center>
+</center>
 </body>
+
 </html>
+
